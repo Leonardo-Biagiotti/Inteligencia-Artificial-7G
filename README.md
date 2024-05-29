@@ -1,1 +1,3 @@
-# Inteligencia-Artificial-7G
+# Música generativa em LSTM
+
+Este projeto tem como objetivo gerar músicas a partir da de redes neurais artificiais Long-Short Term Memory (LSTM). A técnica de web scraping foi aplicada no processo de obtenção das obras em coletâneas MIDI. No pré-processamento dos arquivos MIDI, as músicas foram transpostas para a mesma tonalidade com a finalidade da redução de dimensionalidade do dataset, diminuindo a quantidade de notas únicas. Foi utilizada uma estrutura para armazenar as notas e acordes com informações de seu tom, duração e o tempo decorrido em relação ao último evento (offset). Essas informações foram convertidas em séries temporais como entrada para o treinamento dos modelos e geração de sequências musicais. Foi utilizada a rede neural proposta por Jordan Bird para a geração musical.
